@@ -1,15 +1,15 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+title: 教学
+description: 张弘老师讲授的主要课程。
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## 主要课程
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+- 《大学物理》
+- 《共形场论》
 
-{% include courses.liquid %}
+课程信息来源：[上海大学理学院物理系教师主页](https://physics.shu.edu.cn/info/1082/1559.htm)（正文更新于2022年9月21日）。

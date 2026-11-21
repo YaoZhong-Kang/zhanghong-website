@@ -1,13 +1,11 @@
 ---
 layout: page
-title: submenus
-nav: true
+title: 更多
+nav: false
 nav_order: 8
+published: false
 dropdown: true
-children:
-  - title: bookshelf
-    permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+children: []
 ---
+
+<!-- 维护：需要额外导航分组时，再添加已经发布的页面链接。 -->

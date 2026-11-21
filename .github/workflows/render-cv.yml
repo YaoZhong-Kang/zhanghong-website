@@ -1,14 +1,6 @@
 name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # Generate a downloadable CV only after its Chinese PDF layout is reviewed.
   workflow_call:
   workflow_dispatch:
 permissions:

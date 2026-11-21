@@ -1,34 +1,56 @@
 ---
 layout: about
-title: about
+title: 首页
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Kilar Zhang · <a href="https://physics.shu.edu.cn/">上海大学理学院物理系</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile/zhang-hong.jpg
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>上海大学 G楼301c</p>
+    <p>上海市上大路99号</p>
+    <p><a href="mailto:kilar@shu.edu.cn">kilar@shu.edu.cn</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # The selected list is included below with a Chinese heading.
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**副教授 · 博士生导师 · 硕士生导师**
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+主要从事高能物理理论研究，关注**超弦理论、数学物理与引力波**。研究结合基础引力理论与引力波观测，涉及规范场论与共形场论对偶、量子代数与可积性，以及致密天体和暗物质模型。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+本科毕业于清华大学工程物理系，在东京大学物理系获得硕士和博士学位。此后在日本中央大学、韩国西江大学、中国科学院理论物理研究所和台湾师范大学从事博士后研究，2021年3月加入上海大学。
+
+[查看个人简历]({{ '/cv/' | relative_url }}) · [arXiv 论文](https://arxiv.org/a/zhang_h_4.html) · [INSPIRE 学术档案](https://inspirehep.net/authors/1408663?ui-citation-summary=true)
+
+## 研究方向
+
+- **超弦理论**：规范场论与共形场论对偶，AGT 猜想及其推广。
+- **数学物理**：量子代数、可积性与超对称规范场论。
+- **引力波**：通过引力波观测研究致密天体及核物质与暗物质组成的混合星模型。
+
+[了解研究方向]({{ '/research/' | relative_url }})
+
+<div style="clear: both;"></div>
+
+## 代表性论文
+
+{% include selected_papers.liquid %}
+
+[查看六篇代表性论文]({{ '/publications/' | relative_url }})
+
+## 联系方式
+
+- **电子邮箱**：[kilar@shu.edu.cn](mailto:kilar@shu.edu.cn)
+- **办公电话**：[021-66136202](tel:+862166136202)
+- **通讯地址**：上海市上大路99号，上海大学 G楼301c
+
+<small>资料依据上海大学<a href="https://physics.shu.edu.cn/info/1082/1559.htm">物理系教师介绍</a>（正文更新于2022年9月21日）与<a href="https://scicol.shu.edu.cn/szdw/faculty/zh.htm">理学院教师介绍</a>（更新于2021年6月16日）整理。</small>
