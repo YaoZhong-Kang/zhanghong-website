@@ -241,6 +241,8 @@ exclude:
   - gems/
   - migrations/
   - vendor
+  - test/
+  - requirements.txt
   # Keep the starter examples in source control without publishing them.
   - _posts/
   - _news/
