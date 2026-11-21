@@ -2,6 +2,9 @@
 title: 成果与论文
 cms_exclude: true
 view: citation
+cascade:
+  params:
+    profile: false
 summary: 依据上海大学官方教师资料整理的代表性期刊论文，保留原始英文题名与作者署名。
 # Publication-date precision is YEAR only. Bundle dates use YYYY-01-01 solely
 # as Hugo sorting keys, not as verified publication days. Display publication_year
