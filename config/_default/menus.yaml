@@ -1,0 +1,16 @@
+main:
+- name: 首页
+  url: ''
+  weight: 10
+- name: 研究方向
+  url: research/
+  weight: 20
+- name: 成果与论文
+  url: publications/
+  weight: 30
+- name: 简历
+  url: cv/
+  weight: 40
+- name: 教学
+  url: teaching/
+  weight: 50

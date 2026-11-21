@@ -1,0 +1,80 @@
+hugoblox:
+  schema: '2.0'
+  identity:
+    name: 张弘
+    organization: 上海大学理学院物理系
+    type: person
+    tagline: 高能物理理论
+    description: 张弘（Kilar Zhang），上海大学理学院物理系副教授、博士生导师、硕士生导师。研究方向为超弦理论、数学物理与引力波。
+  theme:
+    mode: light
+    pack: default
+    colors:
+      primary: blue
+      secondary: teal
+      neutral: slate
+  typography:
+    pack: academic
+  layout:
+    radius: lg
+    spacing: comfortable
+    avatar_shape: rounded
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: right
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    cta:
+      enable: false
+  footer:
+    style: minimal
+    language_switcher: false
+    text: 资料与照片来源：<a href="https://physics.shu.edu.cn/info/1082/1559.htm">上海大学物理系</a>（2022年9月）与
+      <a href="https://scicol.shu.edu.cn/szdw/faculty/zh.htm">理学院</a>（2021年6月）。
+  copyright:
+    notice: © {year} 张弘
+  seo:
+    title: 张弘 | 上海大学
+    ai:
+      allow:
+      - /
+      disallow: []
+      note: 张弘老师的个人学术主页。资料来源与更新时间见各页面。
+  content:
+    math:
+      enable: true
+    toc:
+      enable: true
+    reading_time:
+      enable: false
+    citations:
+      style: apa
+  search:
+    enable: true
+    suggestions:
+    - 引力波
+    - 超弦理论
+    - 数学物理
+    quick_actions: []
+  comments:
+    enable: false
+  repository:
+    enable: false
+    url: https://github.com/YaoZhong-Kang/zhanghong-website
+    branch: hugoblox
+    content_dir: content
+  locale:
+    date_format: '2006'
+    time_format: '15:04'
+    address_format: zh-cn
+  privacy:
+    enable: false
+  debug:
+    enable: false
+  pro:
+    hide_attribution: false
+    affiliate_code: ''

@@ -1,0 +1,58 @@
+name: Deploy HugoBlox preview
+
+on:
+  push:
+    branches: [hugoblox]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with the al-folio publisher on main because both update gh-pages.
+concurrency:
+  group: zhanghong-gh-pages-publish
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/hugoblox'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout HugoBlox source
+        uses: actions/checkout@v7
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: '10.14.0'
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: '1.27.4'
+          cache: false
+      - name: Setup Hugo Extended
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.162.1'
+          extended: true
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build HugoBlox and search index
+        env:
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo --gc --minify --baseURL "https://yaozhong-kang.github.io/zhanghong-website/hugoblox/"
+          pnpm run pagefind
+      - name: Publish comparison version
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: public
+          target-folder: hugoblox
+          clean: true
+          force: false
