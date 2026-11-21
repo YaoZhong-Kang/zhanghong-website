@@ -34,19 +34,28 @@ sections:
     items:
     - name: 超弦理论
       description: 研究规范场论与共形场论之间的对偶关系，关注 AGT 猜想及其推广。
-      icon: hero/sparkles
+      image: research/string-theory.jpg
+      image_alt: Calabi–Yau五次流形的局部二维截面可视化
+      image_fit: contain
+      image_credit: '[Andrew J. Hanson](https://commons.wikimedia.org/wiki/File:CalabiYau5.jpg) · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)'
       topics:
       - AGT 对偶
       - 共形场论
     - name: 数学物理
       description: 研究量子代数、可积性及其与超对称规范场论和量子几何的联系。
-      icon: hero/cube-transparent
+      image: research/mathematical-physics.svg
+      image_alt: A_Q型线性箭图及节点、箭头与参数标记
+      image_fit: contain
+      image_credit: '[Bourgine, Matsuo & Zhang · Fig. 2](https://doi.org/10.1007/JHEP04(2016)167) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
       topics:
       - 量子代数
       - 可积性
     - name: 引力波
       description: 结合引力波观测研究致密天体，探索核物质与暗物质组成的混合星模型。
-      icon: hero/chart-bar
+      image: research/gravitational-waves.jpg
+      image_alt: 双中子星并合前的引力波示意
+      image_fit: cover
+      image_credit: '[NASA Goddard / CI Lab](https://svs.gsfc.nasa.gov/12740/)'
       topics:
       - 致密天体
       - 暗物质

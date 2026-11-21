@@ -28,6 +28,8 @@
 | 老师简介、身份、研究兴趣、主页学历 | `data/authors/me.yaml` |
 | 老师头像 | `assets/media/authors/me.jpg` |
 | 研究方向和科研项目 | `content/research/index.md` |
+| 研究方向示意图 | `assets/media/research/`，两处内容文件中的 `image` 字段 |
+| 图片署名、许可和提取记录 | [IMAGE_CREDITS.md](IMAGE_CREDITS.md) |
 | 完整简历与精确年月 | `content/cv/index.md` |
 | 教学课程 | `content/teaching/index.md` |
 | 论文栏目说明 | `content/publications/_index.md` |
@@ -38,6 +40,8 @@
 | 站点地址与默认语言 | `config/_default/hugo.yaml` |
 
 在 GitHub 的分支选择器切到 **hugoblox** 后编辑上述文件，再提交修改。新的提交会触发 **Deploy HugoBlox preview**。`main` 分支仍维护 al-folio，不要将两套目录混在一起。
+
+首页和研究方向页共用三张学术图片：Andrew J. Hanson 的 Calabi–Yau 可视化、Bourgine / Matsuo / Zhang 论文中的线性 quiver，以及 NASA Goddard/CI Lab 的双中子星示意图。保留每项的 `image_alt`、`image_fit` 和 `image_credit`；完整来源及许可见 [IMAGE_CREDITS.md](IMAGE_CREDITS.md)。
 
 ### 论文年份
 
