@@ -107,6 +107,9 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Keep prebuilt assets intact
+        # Both versions are already built. Pages must serve Hugo's _entry CSS unchanged.
+        run: touch _site/.nojekyll
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
