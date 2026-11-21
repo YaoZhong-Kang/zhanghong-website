@@ -2,6 +2,17 @@
 
 当前站点使用 al-folio，发布地址为 <https://yaozhong-kang.github.io/zhanghong-website/>。
 
+## 两个模板版本
+
+| 版本                 | 源码分支   | 访问地址                                                      |
+| -------------------- | ---------- | ------------------------------------------------------------- |
+| al-folio             | `main`     | <https://yaozhong-kang.github.io/zhanghong-website/>          |
+| HugoBlox Academic CV | `hugoblox` | <https://yaozhong-kang.github.io/zhanghong-website/hugoblox/> |
+
+两个版本使用相同的官方教师资料，分别编辑、分别构建。HugoBlox 的内容维护方法见该分支的 `README.md`。`gh-pages` 保存自动生成的发布文件，不直接编辑它。
+
+两份发布工作流共用同一并发组，al-folio 发布步骤保护 `/hugoblox/` 目录；修改发布流程时请保留这两项设置。
+
 ## 本轮资料来源
 
 - [上海大学理学院物理系教师介绍](https://physics.shu.edu.cn/info/1082/1559.htm)：正文更新于2022年9月21日，页面发布于2022年9月22日。用于职称、导师资格、研究方向、课程和联系方式。

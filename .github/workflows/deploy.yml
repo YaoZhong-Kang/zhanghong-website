@@ -60,6 +60,12 @@ on:
 permissions:
   contents: write
 
+# Shared with the HugoBlox publisher so both versions can coexist in gh-pages.
+concurrency:
+  group: zhanghong-gh-pages-publish
+  cancel-in-progress: false
+  queue: max
+
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
@@ -105,4 +111,9 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          branch: gh-pages
           folder: _site
+          clean: true
+          clean-exclude: |
+            /hugoblox/***
+          force: false
