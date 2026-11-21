@@ -23,8 +23,4 @@ hugoblox:
     arxiv: '1809.08861'
 ---
 
-本条目收录张弘老师参与发表的代表性期刊论文，发表于 **2019 年**的《Physics Letters B》。张弘老师在本篇论文中的署名为 **Kilar Zhang**。
-
-可通过 DOI 与 arXiv 链接查阅正式发表记录和预印本，或使用引用按钮获取 BibTeX。
-
-收录依据：[上海大学物理系官方教师资料](https://physics.shu.edu.cn/info/1082/1559.htm)。
+*Physics Letters B* **789**, 610–619 (2019).

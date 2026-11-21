@@ -56,7 +56,7 @@ sections:
   id: papers
   content:
     title: 精选论文
-    text: 从学校官方介绍收录的六篇论文中，选出覆盖不同研究方向的三篇。 [查看全部代表性论文](publications/)
+    text: '[查看全部代表性论文](publications/)'
     count: 3
     filters:
       folders:
@@ -80,7 +80,6 @@ sections:
 
       [arXiv 论文](https://arxiv.org/a/zhang_h_4.html) · [INSPIRE 学术档案](https://inspirehep.net/authors/1408663?ui-citation-summary=true)
 
-      资料依据上海大学[物理系教师介绍](https://physics.shu.edu.cn/info/1082/1559.htm)（2022年9月21日更新）与[理学院教师介绍](https://scicol.shu.edu.cn/szdw/faculty/zh.htm)（2021年6月16日更新）整理。
   design:
     columns: '1'
 ---

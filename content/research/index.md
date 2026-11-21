@@ -55,10 +55,6 @@ sections:
 
         **中国博士后科学基金面上资助项目**，课题负责人，2017年5月—2018年9月。
 
-        ## 资料来源
-
-        - [上海大学物理系教师介绍](https://physics.shu.edu.cn/info/1082/1559.htm)，正文更新于2022年9月21日。
-        - [上海大学理学院教师介绍](https://scicol.shu.edu.cn/szdw/faculty/zh.htm)，更新于2021年6月16日。
     design:
       columns: '1'
 ---

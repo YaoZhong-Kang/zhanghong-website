@@ -24,8 +24,4 @@ hugoblox:
     arxiv: '1512.02492'
 ---
 
-本条目收录张弘老师参与发表的代表性期刊论文，发表于 **2016 年**的《Journal of High Energy Physics》。张弘老师在本篇论文中的署名为 **Hong Zhang**。
-
-可通过 DOI 与 arXiv 链接查阅正式发表记录和预印本，或使用引用按钮获取 BibTeX。
-
-收录依据：[上海大学理学院官方教师资料](https://scicol.shu.edu.cn/szdw/faculty/zh.htm)。
+*Journal of High Energy Physics* **04**, 167 (2016).

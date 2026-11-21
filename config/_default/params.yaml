@@ -33,8 +33,7 @@ hugoblox:
   footer:
     style: minimal
     language_switcher: false
-    text: 资料与照片来源：<a href="https://physics.shu.edu.cn/info/1082/1559.htm">上海大学物理系</a>（2022年9月）与
-      <a href="https://scicol.shu.edu.cn/szdw/faculty/zh.htm">理学院</a>（2021年6月）。
+    text: 照片来源：<a href="https://scicol.shu.edu.cn/szdw/faculty/zh.htm">上海大学理学院</a>
   copyright:
     notice: © {year} 张弘
   seo:
@@ -43,7 +42,7 @@ hugoblox:
       allow:
       - /
       disallow: []
-      note: 张弘老师的个人学术主页。资料来源与更新时间见各页面。
+      note: 张弘的研究、教学与学术成果。
   content:
     math:
       enable: true

@@ -26,8 +26,4 @@ hugoblox:
     arxiv: '2002.10961'
 ---
 
-本条目收录张弘老师参与发表的代表性期刊论文，发表于 **2022 年**的《The European Physical Journal C》。张弘老师在本篇论文中的署名为 **Kilar Zhang**。
-
-可通过 DOI 与 arXiv 链接查阅正式发表记录和预印本，或使用引用按钮获取 BibTeX。
-
-收录依据：[上海大学物理系官方教师资料](https://physics.shu.edu.cn/info/1082/1559.htm)。
+*The European Physical Journal C* **82**(4), 366 (2022).
