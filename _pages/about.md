@@ -45,12 +45,10 @@ latest_posts:
 
 {% include selected_papers.liquid %}
 
-[查看六篇代表性论文]({{ '/publications/' | relative_url }})
+[查看代表性论文]({{ '/publications/' | relative_url }})
 
 ## 联系方式
 
 - **电子邮箱**：[kilar@shu.edu.cn](mailto:kilar@shu.edu.cn)
 - **办公电话**：[021-66136202](tel:+862166136202)
 - **通讯地址**：上海市上大路99号，上海大学 G楼301c
-
-<small>资料依据上海大学<a href="https://physics.shu.edu.cn/info/1082/1559.htm">物理系教师介绍</a>（正文更新于2022年9月21日）与<a href="https://scicol.shu.edu.cn/szdw/faculty/zh.htm">理学院教师介绍</a>（更新于2021年6月16日）整理。</small>

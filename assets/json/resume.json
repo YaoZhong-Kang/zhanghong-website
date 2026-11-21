@@ -5,7 +5,7 @@
     "email": "kilar@shu.edu.cn",
     "phone": "021-66136202",
     "url": "https://physics.shu.edu.cn/info/1082/1559.htm",
-    "summary": "主要从事高能物理理论研究，研究方向为超弦理论、数学物理与引力波。上海大学官方教师资料列明为博士生导师、硕士生导师；论文署名包括 Kilar Zhang 与 Hong Zhang。",
+    "summary": "博士生导师、硕士生导师，主要从事高能物理理论研究，研究方向为超弦理论、数学物理与引力波。论文署名包括 Kilar Zhang 与 Hong Zhang。",
     "location": {
       "address": "上大路99号，上海大学G楼301c",
       "postalCode": "200444",
@@ -31,7 +31,7 @@
       "name": "上海大学",
       "position": "副教授",
       "startDate": "2021-03",
-      "summary": "2021年3月加入上海大学；任职信息依据2022年9月更新的官方资料。"
+      "summary": "2021年3月加入上海大学。"
     },
     {
       "name": "台湾师范大学",
@@ -142,21 +142,5 @@
     {
       "name": "共形场论"
     }
-  ],
-  "meta": {
-    "note": "据上海大学物理系（正文更新于2022-09-21）及理学院（更新于2021-06-16）教师资料整理；未将历史页面的“至今”推定为当前任职核验。",
-    "sources": [
-      {
-        "title": "上海大学理学院物理系：教师个人主页—张弘",
-        "url": "https://physics.shu.edu.cn/info/1082/1559.htm",
-        "updated": "2022-09-21",
-        "published": "2022-09-22"
-      },
-      {
-        "title": "上海大学理学院：张弘",
-        "url": "https://scicol.shu.edu.cn/szdw/faculty/zh.htm",
-        "updated": "2021-06-16"
-      }
-    ]
-  }
+  ]
 }

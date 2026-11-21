@@ -55,7 +55,7 @@ toc:
   </table>
 </div>
 
-2021年3月加入上海大学。以上任职信息依据2021年与2022年更新的官方教师资料整理。
+2021年3月加入上海大学。
 
 ## 代表性科研项目
 
@@ -82,11 +82,3 @@ toc:
 - 邮编：{{ cv.address.postalCode }}
 
 代表性学术成果见[成果与论文]({{ '/publications/' | relative_url }})。
-
-## 资料来源
-
-{% for source in site.data.cv.sources %}
-
-- [{{ source.title }}]({{ source.url }})，正文更新于 {{ source.updated | replace: '-', '.' }}{% if source.published %}，页面发布于 {{ source.published | replace: '-', '.' }}{% endif %}。
-
-{% endfor %}
